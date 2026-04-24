@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Equipos | Maki Equipos — Alquiler de Maquinaria en Duitama, Boyacá</title>
+  <meta name="description" content="Catálogo completo de alquiler: andamios certificados, formaletas metálicas, testeros de fibra de vidrio, mezcladoras, vibrocompactadores y más en Duitama, Boyacá." />
+  <link rel="icon" type="image/webp" href="/assets/images/logo.webp" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <!-- FAQ Schema for AI visibility -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Dónde alquilar andamios en Duitama?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Maki Equipos en Duitama, Boyacá ofrece andamios certificados y tubulares para alquiler. Ubicados en CRA 18 No 23-69 frente a la bomba Cooflotax. Contacto: 313 400 4912." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué tipo de maquinaria alquila Maki Equipos?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Maki Equipos alquila andamios, formaletas metálicas, testeros de fibra de vidrio, material placa (camillas, parales, cerchas, crucetas), mezcladoras de concreto, vibrocompactadores, demoledores y vibradores para concreto." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Alquiler de formaletas metálicas en Boyacá?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Maki Equipos ofrece formaletas metálicas de diversos tamaños (ancho de 5 a 60 cm, largo de 60 a 120 cm) con accesorios incluidos como ángulos, chapetas, rinconeras y tensores." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Maki Equipos - Inicio">
+        <img src="/assets/images/logo.webp" alt="Logo Maki Equipos" />
+        <div class="navbar__logo-text">MAKI<br/><span>EQUIPOS</span></div>
+      </a>
+      <ul class="navbar__menu" id="navMenu">
+        <li><a href="index.html" class="navbar__link">Inicio</a></li>
+        <li><a href="nosotros.html" class="navbar__link">Nosotros</a></li>
+        <li><a href="catalogo.html" class="navbar__link active">Catálogo</a></li>
+        <li><a href="proyectos.html" class="navbar__link">Proyectos</a></li>
+        <li><a href="contacto.html" class="navbar__link">Contacto</a></li>
+        <li>
+          <a href="#" class="btn btn--primary btn--sm navbar__cta" data-whatsapp="ventas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+            Cotizar
+          </a>
+        </li>
+      </ul>
+      <button class="navbar__toggle" id="navToggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag" style="color: var(--color-primary-light)">Nuestro Inventario</span>
+      <h1>Catálogo de Equipos</h1>
+      <p>Encuentra el equipo que necesitas para tu obra. Cotiza directamente por WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="section">
+    <div class="container">
+      <div class="catalog-filter animate-on-scroll">
+        <button class="catalog-filter__btn active" data-filter="todos">Todos</button>
+        <button class="catalog-filter__btn" data-filter="andamios">Andamios</button>
+        <button class="catalog-filter__btn" data-filter="formaletas">Formaletas</button>
+        <button class="catalog-filter__btn" data-filter="testeros">Testeros</button>
+        <button class="catalog-filter__btn" data-filter="placa">Material Placa</button>
+        <button class="catalog-filter__btn" data-filter="maquinaria">Maquinaria</button>
+        <button class="catalog-filter__btn" data-filter="herramientas">Herramientas</button>
+      </div>
+
+      <!-- === ANDAMIOS === -->
+      <div class="catalog-category" data-category="andamios" id="andamios">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="1"/><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="14" x2="20" y2="14"/><line x1="10" y1="2" x2="10" y2="22"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Andamios</h2>
+          <span class="catalog-category__count">2 equipos</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/andamio-certificado.png" alt="Andamio certificado con baranda de seguridad" class="equip-card__image" />
+              <span class="equip-card__category">Andamios</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Andamio Certificado</h3>
+              <p class="equip-card__desc">Estructura metálica certificada para trabajos en altura, con baranda de seguridad perimetral. Ideal para fachadas y acabados.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 Altura: 3m</span>
+                <span class="equip-card__spec">📐 Área: 1.40 × 1.40 m</span>
+                <span class="equip-card__spec">🛡️ Con baranda</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Andamio Certificado (3m, 1.40x1.40m con baranda)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/andamio-certificado.png" alt="Andamio tubular seccional" class="equip-card__image" />
+              <span class="equip-card__category">Andamios</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Andamio Tubular</h3>
+              <p class="equip-card__desc">Andamio tubular seccional con ruedas de transporte, ideal para trabajos que requieren movilidad en la obra.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 Sección grande: 1.50 × 1.50 m</span>
+                <span class="equip-card__spec">📐 Sección pequeña: 1.00 × 1.50 m</span>
+                <span class="equip-card__spec">🔄 Con ruedas</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Andamio Tubular (con ruedas)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === FORMALETAS === -->
+      <div class="catalog-category" data-category="formaletas" id="formaletas">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Formaleta Metálica</h2>
+          <span class="catalog-category__count">1 equipo</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/formaleta-metalica.png" alt="Formaleta metálica para construcción" class="equip-card__image" />
+              <span class="equip-card__category">Formaletas</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Formaleta Metálica</h3>
+              <p class="equip-card__desc">Sistema completo de formaletas metálicas con accesorios incluidos: ángulos, chapetas, rinconeras, tensores y demás.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 Ancho: 5 a 60 cm</span>
+                <span class="equip-card__spec">📐 Largo: 60 a 120 cm</span>
+                <span class="equip-card__spec">🔧 + Accesorios</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Formaleta Metálica (varias medidas, con accesorios)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === TESTEROS === -->
+      <div class="catalog-category" data-category="testeros" id="testeros">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Testero Fibra de Vidrio</h2>
+          <span class="catalog-category__count">1 equipo</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/testero-fibra.png" alt="Testero en fibra de vidrio" class="equip-card__image" />
+              <span class="equip-card__category">Testeros</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Testero Fibra de Vidrio</h3>
+              <p class="equip-card__desc">Testeros fabricados en fibra de vidrio de alta resistencia, disponibles en diversas medidas para adaptarse a cada necesidad.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 Largo: 2.00, 2.40, 3.00 m</span>
+                <span class="equip-card__spec">📐 Ancho: 20, 25, 35, 40 cm</span>
+                <span class="equip-card__spec">💪 Alta resistencia</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Testero Fibra de Vidrio (varias medidas)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === MATERIAL PLACA === -->
+      <div class="catalog-category" data-category="placa" id="placa">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7"/><path d="M19 21V7"/><path d="M3 7l9-4 9 4"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Material Placa</h2>
+          <span class="catalog-category__count">4 equipos</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/material-placa.png" alt="Camilla para construcción" class="equip-card__image" />
+              <span class="equip-card__category">Material Placa</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Camilla</h3>
+              <p class="equip-card__desc">Camilla metálica para soporte de placas de entrepiso y losas de concreto.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 70 cm × 1.40 m</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Camilla (70cm × 1.40m)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/material-placa.png" alt="Paral para construcción" class="equip-card__image" />
+              <span class="equip-card__category">Material Placa</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Paral</h3>
+              <p class="equip-card__desc">Parales metálicos telescópicos para soporte vertical de placas y losas.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 Corto: 1.50m (ext. 2.80)</span>
+                <span class="equip-card__spec">📏 Largo: 2.00m (ext. 3.80)</span>
+                <span class="equip-card__spec">📏 Extralargo: 3.00m (ext. 6.00)</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Paral (varias medidas)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/material-placa.png" alt="Cercha metálica para construcción" class="equip-card__image" />
+              <span class="equip-card__category">Material Placa</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Cercha</h3>
+              <p class="equip-card__desc">Cerchas metálicas para apoyo horizontal de placas de entrepiso.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 2 m de largo</span>
+                <span class="equip-card__spec">📏 3 m de largo</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Cercha (2m y 3m)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/material-placa.png" alt="Cruceta para construcción" class="equip-card__image" />
+              <span class="equip-card__category">Material Placa</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Cruceta</h3>
+              <p class="equip-card__desc">Crucetas metálicas para arriostrar y estabilizar los parales de soporte.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">📏 3 m × 2 m</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Cruceta (3m × 2m)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === MAQUINARIA === -->
+      <div class="catalog-category" data-category="maquinaria" id="maquinaria">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Maquinaria</h2>
+          <span class="catalog-category__count">2 equipos</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/mezcladora.png" alt="Mezcladora de concreto" class="equip-card__image" />
+              <span class="equip-card__category">Maquinaria</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Mezcladora de Concreto</h3>
+              <p class="equip-card__desc">Mezcladoras de concreto de alta capacidad con motor eléctrico, portátiles y eficientes para todo tipo de obra.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">⚡ Motor eléctrico</span>
+                <span class="equip-card__spec">📦 Alta capacidad</span>
+                <span class="equip-card__spec">🔄 Portátil</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Mezcladora de Concreto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/herramientas.png" alt="Vibrocompactador para suelos" class="equip-card__image" />
+              <span class="equip-card__category">Maquinaria</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Vibrocompactador</h3>
+              <p class="equip-card__desc">Equipos de compactación de suelos para la preparación de terrenos y bases de cimentación.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">⚡ Motor a gasolina</span>
+                <span class="equip-card__spec">💪 Alta potencia</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Vibrocompactador">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === HERRAMIENTAS === -->
+      <div class="catalog-category" data-category="herramientas" id="herramientas">
+        <div class="catalog-category__header">
+          <div class="catalog-category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h2 class="catalog-category__title">Herramientas</h2>
+          <span class="catalog-category__count">2 equipos</span>
+        </div>
+        <div class="catalog-grid">
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/herramientas.png" alt="Demoledor eléctrico" class="equip-card__image" />
+              <span class="equip-card__category">Herramientas</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Demoledor</h3>
+              <p class="equip-card__desc">Martillo demoledor de alto impacto para trabajos de demolición de concreto y mampostería.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">⚡ Eléctrico</span>
+                <span class="equip-card__spec">💥 Alto impacto</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Demoledor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+          <div class="equip-card animate-on-scroll">
+            <div class="equip-card__image-wrap">
+              <img src="/assets/images/equipos/herramientas.png" alt="Vibrador para concreto" class="equip-card__image" />
+              <span class="equip-card__category">Herramientas</span>
+            </div>
+            <div class="equip-card__body">
+              <h3 class="equip-card__title">Vibrador para Concreto</h3>
+              <p class="equip-card__desc">Vibrador de inmersión para compactar y eliminar burbujas de aire en el concreto fresco.</p>
+              <div class="equip-card__specs">
+                <span class="equip-card__spec">🔌 Eléctrico</span>
+                <span class="equip-card__spec">🔄 Inmersión</span>
+              </div>
+              <a href="#" class="btn btn--whatsapp btn--sm equip-card__action" data-whatsapp-equip="Vibrador para Concreto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                Cotizar este equipo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (same as other pages) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><img src="/assets/images/logo.webp" alt="Logo Maki Equipos" /><div class="footer__brand-name">Maki Equipos</div><p>Alquiler de maquinaria y equipo para construcción en Duitama, Boyacá.</p></div>
+        <div><h4 class="footer__title">Navegación</h4><div class="footer__links"><a href="index.html" class="footer__link">Inicio</a><a href="nosotros.html" class="footer__link">Nosotros</a><a href="catalogo.html" class="footer__link">Catálogo</a><a href="proyectos.html" class="footer__link">Proyectos</a><a href="contacto.html" class="footer__link">Contacto</a></div></div>
+        <div><h4 class="footer__title">Categorías</h4><div class="footer__links"><a href="#andamios" class="footer__link">Andamios</a><a href="#formaletas" class="footer__link">Formaletas</a><a href="#testeros" class="footer__link">Testeros</a><a href="#maquinaria" class="footer__link">Maquinaria</a></div></div>
+        <div><h4 class="footer__title">Contacto</h4><div class="footer__contact-item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span>313 400 4912 · 314 264 7491</span></div></div>
+      </div>
+      <div class="footer__bottom"><p>&copy; 2026 Maki Equipos. Todos los derechos reservados.</p><p>Duitama, Boyacá — Colombia</p></div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <div class="whatsapp-float" id="whatsappFloat">
+    <div class="whatsapp-float__tooltip">¿Necesitas cotizar?</div>
+    <a href="#" class="whatsapp-float__btn" aria-label="Contactar por WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.694-1.381A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.115 0-4.1-.647-5.74-1.756l-.402-.262-2.87.845.77-2.808-.287-.422A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    </a>
+  </div>
+
+  <script type="module" src="/js/main.js"></script>
+  <script type="module" src="/js/whatsapp.js"></script>
+  <script type="module" src="/js/catalog.js"></script>
+</body>
+</html>

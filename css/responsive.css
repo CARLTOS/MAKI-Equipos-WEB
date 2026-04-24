@@ -1,0 +1,244 @@
+/* ============================================
+   MAKI EQUIPOS - Responsive Styles
+   ============================================ */
+
+/* === Tablet (max 1024px) === */
+@media (max-width: 1024px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .popular-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-snippet {
+    gap: var(--space-2xl);
+  }
+
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coverage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* === Mobile Large (max 768px) === */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--space-md);
+  }
+
+  .section {
+    padding: var(--space-3xl) 0;
+  }
+
+  /* Navbar mobile */
+  .navbar__menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-white);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--space-2xl);
+    gap: var(--space-lg);
+    transform: translateX(100%);
+    transition: transform var(--transition-base);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .navbar__menu.open {
+    transform: translateX(0);
+  }
+
+  .navbar__toggle {
+    display: flex;
+  }
+
+  .navbar__link {
+    font-size: var(--fs-body);
+  }
+
+  .navbar__cta {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Hero mobile */
+  .hero__title {
+    font-size: clamp(1.8rem, 6vw, 2.5rem);
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero__scroll-indicator {
+    display: none;
+  }
+
+  /* Layout adjustments */
+  .about-snippet {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .about-snippet__image {
+    order: -1;
+  }
+
+  .about-snippet__stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .map-section {
+    grid-template-columns: 1fr;
+  }
+
+  .map-section__map {
+    height: 300px;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+  }
+
+  .popular-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Nosotros */
+  .about-full {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+
+  .team-highlight {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  /* Catálogo */
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-filter {
+    gap: var(--space-xs);
+  }
+
+  .catalog-filter__btn {
+    padding: 0.5rem 1rem;
+    font-size: var(--fs-xs);
+  }
+
+  /* Proyectos */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid .project-card:first-child {
+    grid-column: span 1;
+  }
+
+  .projects-grid .project-card:first-child .project-card__image {
+    height: 300px;
+  }
+
+  .coverage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contacto */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .contact-map {
+    min-height: 300px;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+  }
+
+  /* Footer */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: var(--space-md);
+    text-align: center;
+  }
+
+  /* WhatsApp Float */
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-float__btn {
+    width: 54px;
+    height: 54px;
+  }
+
+  .whatsapp-options {
+    right: 20px;
+    bottom: 85px;
+    min-width: 260px;
+  }
+}
+
+/* === Mobile Small (max 480px) === */
+@media (max-width: 480px) {
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-snippet__stats {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card__number {
+    font-size: var(--fs-h1);
+  }
+
+  .whatsapp-buttons {
+    gap: var(--space-sm);
+  }
+}

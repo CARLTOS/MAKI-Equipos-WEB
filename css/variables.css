@@ -1,0 +1,102 @@
+/* ============================================
+   MAKI EQUIPOS - Design Tokens & Variables
+   ============================================ */
+
+:root {
+  /* === Brand Colors === */
+  --color-primary: #2E8B57;
+  --color-primary-dark: #236B43;
+  --color-primary-light: #3DA86E;
+  --color-primary-50: rgba(46, 139, 87, 0.05);
+  --color-primary-100: rgba(46, 139, 87, 0.1);
+  --color-primary-200: rgba(46, 139, 87, 0.2);
+
+  /* === Neutral Colors === */
+  --color-black: #1A1A1A;
+  --color-gray-900: #2D2D2D;
+  --color-gray-800: #3A3A3A;
+  --color-gray-700: #4A4A4A;
+  --color-gray-600: #5C5C5C;
+  --color-gray-500: #7A7A7A;
+  --color-gray-400: #9E9E9E;
+  --color-gray-300: #C4C4C4;
+  --color-gray-200: #E0E0E0;
+  --color-gray-100: #F0F0F0;
+  --color-gray-50: #F8F8F8;
+  --color-white: #FFFFFF;
+
+  /* === Functional Colors === */
+  --color-success: #27AE60;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #128C7E;
+  --color-danger: #E74C3C;
+
+  /* === Typography === */
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --fs-display: clamp(2.5rem, 5vw, 4rem);
+  --fs-h1: clamp(2rem, 4vw, 3rem);
+  --fs-h2: clamp(1.6rem, 3vw, 2.25rem);
+  --fs-h3: clamp(1.25rem, 2.5vw, 1.5rem);
+  --fs-h4: 1.125rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.125rem;
+  --fs-small: 0.875rem;
+  --fs-xs: 0.75rem;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.7;
+
+  /* === Spacing === */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* === Layout === */
+  --container-max: 1200px;
+  --container-narrow: 900px;
+  --container-wide: 1400px;
+
+  /* === Borders === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* === Shadows === */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 50px rgba(0, 0, 0, 0.15);
+  --shadow-green: 0 4px 20px rgba(46, 139, 87, 0.25);
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* === Z-Index === */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-whatsapp: 500;
+  --z-toast: 600;
+}

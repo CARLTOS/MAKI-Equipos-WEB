@@ -1,0 +1,14 @@
+/* ============================================
+   MAKI EQUIPOS - Main Stylesheet
+   All imports consolidated here
+   ============================================ */
+
+@import './variables.css';
+@import './base.css';
+@import './components.css';
+@import './pages/home.css';
+@import './pages/nosotros.css';
+@import './pages/catalogo.css';
+@import './pages/proyectos.css';
+@import './pages/contacto.css';
+@import './responsive.css';
