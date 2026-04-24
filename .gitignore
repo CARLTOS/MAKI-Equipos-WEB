@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.gemini/
+skills/
+.stitch/
+*.png
+*.jpg
+*.webp
+!assets/images/**/*.png
+!assets/images/**/*.jpg
+!assets/images/**/*.webp
+!assets/images/**/*.svg
